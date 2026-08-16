@@ -1,0 +1,9 @@
+# Framework UI
+streamlit>=1.41.0
+
+# SDK Oficial de Google Gemini (v1.0+)
+google-genai>=1.0.0
+
+# Gestión de archivos de configuración y variables de entorno
+pyyaml>=6.0.1
+python-dotenv>=1.0.1

@@ -1,0 +1,38 @@
+{
+  "scaffolder": {
+    "id": "scaffolder",
+    "name": "Data Scaffolder Agent",
+    "description": "Automatización de infraestructura, andamiaje de proyectos y entornos virtuales",
+    "prompt_module": "prompts.scaffolder",
+    "prompt_var": "SYSTEM_PROMPT",
+    "icon": "🏗️",
+    "enabled": true
+  },
+  "inspector": {
+    "id": "inspector",
+    "name": "Data Inspector Agent",
+    "description": "Auditoría, diagnóstico rápido y análisis exploratorio inicial de datasets",
+    "prompt_module": "prompts.inspector",
+    "prompt_var": "SYSTEM_PROMPT",
+    "icon": "🔍",
+    "enabled": true
+  },
+  "wrangler": {
+    "id": "wrangler",
+    "name": "Data Wrangler Agent",
+    "description": "Limpieza, transformación y preparación de pipelines de datos",
+    "prompt_module": "prompts.wrangler",
+    "prompt_var": "SYSTEM_PROMPT",
+    "icon": "🧹",
+    "enabled": true
+  },
+  "explorer": {
+    "id": "explorer",
+    "name": "Data Explorer Agent",
+    "description": "Visualización, profiling y análisis estadístico avanzado",
+    "prompt_module": "prompts.explorer",
+    "prompt_var": "SYSTEM_PROMPT",
+    "icon": "📊",
+    "enabled": true
+  }
+}

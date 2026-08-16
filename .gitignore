@@ -1,0 +1,44 @@
+# ==========================================
+# Entorno y Secretos (CRÍTICO)
+# ==========================================
+.env
+.env.*
+!.env.example
+secrets.toml
+*.pem
+*.key
+
+# ==========================================
+# Entornos Virtuales
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Caché y Archivos de Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Streamlit & IDEs
+# ==========================================
+.streamlit/secrets.toml
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Sistema Operativo
+# ==========================================
+.DS_Store
+Thumbs.db
